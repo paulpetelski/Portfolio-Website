@@ -1,0 +1,64 @@
+input[type=text], select{
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+/*
+#print{
+    padding: 2rem;
+    margin-top: 3rem;
+    border-radius: 25px;
+    border: 2px solid #A9A9A9;
+    width: 100%;
+    text-align: center;
+    background: white;
+}
+*/
+
+p{
+    margin-bottom: 0;
+}
+
+.title{
+    padding: 3rem;
+    font-size: 3rem;
+}
+
+.centerMe{
+    margin: 0 auto;
+    width: 50%;
+}
+
+.backgroundDiv{
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.banner{
+    background-color: #496e7d;
+    color: #ecf1f0;
+}
+
+.calculator{
+    background-color: #7bafbf;
+    color: #ecf1f0;
+    padding: 1rem;
+    border: 2px solid #f2f2f2;
+}
+
+.form-control{
+
+}
+
+#convertButton{
+
+}
+
+textarea{
+    font-size: 1.2em;
+}
+
+.btn-secondary:hover{
+    background-color: red;
+}

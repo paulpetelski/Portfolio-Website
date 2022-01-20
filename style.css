@@ -1,0 +1,139 @@
+.selection-menu{
+/*
+    color: #FCEDDA;
+  */
+    font-size: 3rem;
+    text-decoration: none;
+    color: #ff5d71;
+
+}
+
+.textColor{
+/*
+    color: #FCEDDA;
+*/  
+    color: black;
+}
+
+
+/*
+body{
+    background: #245570;
+}
+*/
+
+#bootstrap-overrides .nav-link { /* 100+1=101 priority score */
+    /*
+    color: #FCEDDA;
+    */
+  }
+
+  .borderAround{
+    /*
+      border: 2px solid #FCEDDA;
+    */
+      border-radius: 20px;
+
+  }
+
+img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+#bootstrap-overrides .banner{
+    height: 40vh;
+    background: radial-gradient(#ff5d71, #EB3349);
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.desc{
+    font-size:2rem;
+}
+
+
+/* Skills Bar */
+.box{
+  width: 100%;
+  padding: 30px 30px 50px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 20px 30px rgba(0,0,0,0.2);
+  color: black;
+}
+
+.details{
+  width:100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bar{
+  position: relative;
+  border: 2px solid #0d96e0;
+  border-radius: 20px;
+}
+
+.bar div{
+  position: relative;
+  width: 0;
+  height: 9px;
+  border-radius: 10px;
+  background-color: #0d96e0;
+}
+
+.skills:not(:last-child){
+  margin-bottom: 30px;
+}
+
+#html-bar{
+  animation: html-fill 2s forwards;
+}
+
+@keyframes html-fill{
+  100%{
+    width:90%;
+  }
+}
+
+#css-bar{
+  animation: css-fill 2s forwards;
+}
+
+@keyframes css-fill{
+  100%{
+    width:80%;
+  }
+}
+
+#javascript-bar{
+  animation: javascript-fill 2s forwards;
+}
+
+@keyframes javascript-fill{
+  100%{
+    width:40%;
+  }
+}
+
+#java-bar{
+  animation: java-fill 2s forwards;
+}
+
+@keyframes java-fill{
+  100%{
+    width:75%;
+  }
+}
+
+#python-bar{
+  animation: python-fill 2s forwards;
+}
+
+@keyframes python-fill{
+  100%{
+    width:75%;
+  }
+}

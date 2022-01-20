@@ -1,0 +1,51 @@
+/*
+body{
+    background-color: black !important;
+    color: white;
+}
+*/
+#pic{
+    height: auto;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 2rem;
+    display: block;
+}
+
+#explanation{
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 5rem;
+}
+
+#title{
+    margin:0 auto;
+    display: block;
+}
+
+#headerTitle{
+    padding-top: 2.5rem;
+    padding-bottom: 3.5rem;
+    text-align: center;
+}
+
+#datepicker{
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+.datepickerTitle{
+    display: block;
+    text-align: center;
+}
+
+.centerIt{
+    display: block;
+    margin: 0 auto;
+}
+
+.render{
+    margin-top: 3rem;
+}
