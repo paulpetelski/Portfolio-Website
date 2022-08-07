@@ -1,20 +1,18 @@
-.selection-menu{
-/*
+.selection-menu {
+  /*
     color: #FCEDDA;
   */
-    font-size: 3rem;
-    text-decoration: none;
-    color: #ff5d71;
-
+  font-size: 3rem;
+  text-decoration: none;
+  color: #ff5d71;
 }
 
-.textColor{
-/*
+.textColor {
+  /*
     color: #FCEDDA;
-*/  
-    color: black;
+*/
+  color: black;
 }
-
 
 /*
 body{
@@ -22,61 +20,78 @@ body{
 }
 */
 
-#bootstrap-overrides .nav-link { /* 100+1=101 priority score */
-    /*
+#bootstrap-overrides .nav-link {
+  /* 100+1=101 priority score */
+  /*
     color: #FCEDDA;
     */
-  }
+}
 
-  .borderAround{
-    /*
+.borderAround {
+  /*
       border: 2px solid #FCEDDA;
     */
-      border-radius: 20px;
-
-  }
-
-img{
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
+  border-radius: 20px;
 }
 
-#bootstrap-overrides .banner{
-    height: 40vh;
+img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+#bootstrap-overrides .banner {
+  height: 40vh;
+  /*
     background: radial-gradient(#ff5d71, #EB3349);
-    background-repeat: no-repeat;
-    color: white;
+    */
+  background: #667db6; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #667db6,
+    #0082c8,
+    #0082c8,
+    #667db6
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #667db6,
+    #0082c8,
+    #0082c8,
+    #667db6
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  background-repeat: no-repeat;
+  color: white;
 }
 
-.desc{
-    font-size:2rem;
+.desc {
+  font-size: 2rem;
 }
-
 
 /* Skills Bar */
-.box{
+.box {
   width: 100%;
   padding: 30px 30px 50px;
   background-color: white;
   border-radius: 10px;
-  box-shadow: 0 20px 30px rgba(0,0,0,0.2);
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
   color: black;
 }
 
-.details{
-  width:100%;
+.details {
+  width: 100%;
   display: flex;
   justify-content: space-between;
 }
 
-.bar{
+.bar {
   position: relative;
   border: 2px solid #0d96e0;
   border-radius: 20px;
 }
 
-.bar div{
+.bar div {
   position: relative;
   width: 0;
   height: 9px;
@@ -84,56 +99,56 @@ img{
   background-color: #0d96e0;
 }
 
-.skills:not(:last-child){
+.skills:not(:last-child) {
   margin-bottom: 30px;
 }
 
-#html-bar{
+#html-bar {
   animation: html-fill 2s forwards;
 }
 
-@keyframes html-fill{
-  100%{
-    width:90%;
+@keyframes html-fill {
+  100% {
+    width: 90%;
   }
 }
 
-#css-bar{
+#css-bar {
   animation: css-fill 2s forwards;
 }
 
-@keyframes css-fill{
-  100%{
-    width:80%;
+@keyframes css-fill {
+  100% {
+    width: 80%;
   }
 }
 
-#javascript-bar{
+#javascript-bar {
   animation: javascript-fill 2s forwards;
 }
 
-@keyframes javascript-fill{
-  100%{
-    width:50%;
+@keyframes javascript-fill {
+  100% {
+    width: 50%;
   }
 }
 
-#java-bar{
+#java-bar {
   animation: java-fill 2s forwards;
 }
 
-@keyframes java-fill{
-  100%{
-    width:75%;
+@keyframes java-fill {
+  100% {
+    width: 75%;
   }
 }
 
-#python-bar{
+#python-bar {
   animation: python-fill 2s forwards;
 }
 
-@keyframes python-fill{
-  100%{
-    width:75%;
+@keyframes python-fill {
+  100% {
+    width: 75%;
   }
 }

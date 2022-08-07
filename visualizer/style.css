@@ -12,3 +12,23 @@
 button {
   padding: 8px 16px;
 }
+
+.blue {
+  background-color: blue !important;
+}
+
+.starterColor {
+  background-color: red;
+}
+
+.square {
+  border: 1px solid black;
+}
+
+.square:hover {
+  background-color: blue;
+}
+
+.squareRow {
+  display: flex;
+}
